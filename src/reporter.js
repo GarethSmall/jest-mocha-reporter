@@ -24,10 +24,10 @@ function reporter(report : AggregatedResultWithoutCoverage, contexts? : Object) 
   /**
    * We will need to update this support defining a configuration.
    */
-  const filename = process.env.JEST_REPORT_FILE || 'test-report.json';
+  const filename = process.env.JEST_MOCHA_FILE || 'test-report.json';
   const suiteNameTemplate =
-    process.env.JEST_BAMBOO_SUITE_NAME || '{firstAncestorTitle|filePath}';
-  const nameSeparator = process.env.JEST_BAMBOO_NAME_SEPARATOR || ' – ';
+    process.env.JEST_MOCHA_SUITE_NAME || '{firstAncestorTitle|filePath}';
+  const nameSeparator = process.env.JEST_MOCHA_NAME_SEPARATOR || ' – ';
 
   output.stats.tests = report.numTotalTests;
   output.stats.passes = report.numPassedTests;

@@ -48,10 +48,10 @@ See [Configuring Jest](https://jestjs.io/docs/en/configuration.html).
 The name of test suite and separator can be customized by setting the environment variables
 
 ~~~sh
-JEST_BAMBOO_SUITE_NAME="{fileNameWithoutExtension}" JEST_BAMBOO_NAME_SEPARATOR=" >> " jest
+JEST_MOCHA_SUITE_NAME="{fileNameWithoutExtension}" JEST_MOCHA_NAME_SEPARATOR=" >> " jest
 ~~~
 
-`JEST_BAMBOO_SUITE_NAME` supports following variables
+`JEST_MOCHA_SUITE_NAME` supports following variables
 - firstAncestorTitle: The name of the outermost "describe" group
 - filePath: Full path of the test
 - fileName: File name of the test
