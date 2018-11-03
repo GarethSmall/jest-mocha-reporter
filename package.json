@@ -1,6 +1,6 @@
 {
   "name": "jest-mocha-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/jest-mocha-reporter.js",
   "scripts": {
     "lint": "eslint --ext .js ./src",
