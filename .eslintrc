@@ -1,0 +1,58 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "plugins": [
+    "flowtype",
+    "prettier",
+    "jest",
+    "import"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:flowtype/recommended",
+    "prettier/standard",
+    "prettier/flowtype"
+  ],
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": 2,
+    "flowtype/space-before-type-colon": [
+      2,
+      "always"
+    ],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always"
+    ],
+    "strict": 0,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "import/first": 1,
+    "no-else-return": 1,
+    "no-nested-ternary": 1,
+    "no-confusing-arrow": 1,
+    "no-shadow": 1
+  }
+}

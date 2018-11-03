@@ -1,0 +1,300 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 14,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 5,
+  "numRuntimeErrorTestSuites": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 21,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1533927951939,
+  "success": false,
+  "testResults": [
+    {
+      "console": null,
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mreset content › should reset content when EDITOR_CONTENT_PUBLISH_SUCCESS emits\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m1\u001b[39m\n    Received: \u001b[31m2\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 153 | \u001b[39m      content\u001b[33m:\u001b[39m { version\u001b[33m:\u001b[39m { number\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m } }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 154 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 155 | \u001b[39m    expect(queryCounter)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 156 | \u001b[39m    expect(\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 157 | \u001b[39m      getReduxStore(wrapper)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 158 | \u001b[39m        \u001b[33m.\u001b[39mgetState()\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat _callee8$ (\u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:155:26)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat tryCatch (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:62:40)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.invoke [as _invoke] (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:296:22)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.prototype.(anonymous function) [as next] (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:114:21)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:30:867)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:30:1027\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mreset content › should reset content when RESET_CONTENT emits\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m1\u001b[39m\n    Received: \u001b[31m2\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 177 | \u001b[39m      type\u001b[33m:\u001b[39m \u001b[32m\"RESET_CONTENT\"\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 178 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 179 | \u001b[39m    expect(queryCounter)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 180 | \u001b[39m    expect(\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 181 | \u001b[39m      getReduxStore(wrapper)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 182 | \u001b[39m        \u001b[33m.\u001b[39mgetState()\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat _callee9$ (\u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:179:26)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat tryCatch (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:62:40)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.invoke [as _invoke] (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:296:22)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.prototype.(anonymous function) [as next] (\u001b[2m\u001b[0m\u001b[36m../../node_modules/regenerator-runtime/runtime.js\u001b[39m\u001b[0m\u001b[2m:114:21)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:30:867)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36msrc/components/ContentBody/__tests__/ContentBody-test.js\u001b[39m\u001b[0m\u001b[2m:30:1027\u001b[2m\u001b[22m\n",
+      "numFailingTests": 2,
+      "numPassingTests": 14,
+      "numPendingTests": 5,
+      "perfStats": {
+        "end": 1533927958395,
+        "start": 1533927952436
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "./src/components/ContentBody/__tests__/ContentBody-test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 112,
+          "failureMessages": [],
+          "fullName": "should render a spinner when loading",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render a spinner when loading"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 175,
+          "failureMessages": [],
+          "fullName": "should render internal id which is used by InlineComponent",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render internal id which is used by InlineComponent"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 142,
+          "failureMessages": [],
+          "fullName": "should render a custom class for Fabric page content",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render a custom class for Fabric page content"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 88,
+          "failureMessages": [],
+          "fullName": "should force render SPA when react.ui.force.spa",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should force render SPA when react.ui.force.spa"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 71,
+          "failureMessages": [],
+          "fullName": "should bind links in body to proxyLinksToSPA",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should bind links in body to proxyLinksToSPA"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 61,
+          "failureMessages": [],
+          "fullName": "should force render fallback when pagepropertiesreport.serverrender appears in query",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should force render fallback when pagepropertiesreport.serverrender appears in query"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 46,
+          "failureMessages": [],
+          "fullName": "should render SPA if the spaFriendly field is missing",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render SPA if the spaFriendly field is missing"
+        },
+        {
+          "ancestorTitles": [
+            "reset content"
+          ],
+          "duration": 97,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at _callee8$ (./src/components/ContentBody/__tests__/ContentBody-test.js:155:26)\n    at tryCatch (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:62:40)\n    at Generator.invoke [as _invoke] (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:296:22)\n    at Generator.prototype.(anonymous function) [as next] (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:114:21)\n    at step (./src/components/ContentBody/__tests__/ContentBody-test.js:30:867)\n    at ./src/components/ContentBody/__tests__/ContentBody-test.js:30:1027"
+          ],
+          "fullName": "reset content should reset content when EDITOR_CONTENT_PUBLISH_SUCCESS emits",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should reset content when EDITOR_CONTENT_PUBLISH_SUCCESS emits"
+        },
+        {
+          "ancestorTitles": [
+            "reset content"
+          ],
+          "duration": 88,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBe(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at _callee9$ (./src/components/ContentBody/__tests__/ContentBody-test.js:179:26)\n    at tryCatch (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:62:40)\n    at Generator.invoke [as _invoke] (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:296:22)\n    at Generator.prototype.(anonymous function) [as next] (/Users/rading/src/confluence-frontend/node_modules/regenerator-runtime/runtime.js:114:21)\n    at step (./src/components/ContentBody/__tests__/ContentBody-test.js:30:867)\n    at ./src/components/ContentBody/__tests__/ContentBody-test.js:30:1027"
+          ],
+          "fullName": "reset content should reset content when RESET_CONTENT emits",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should reset content when RESET_CONTENT emits"
+        },
+        {
+          "ancestorTitles": [
+            "error state"
+          ],
+          "duration": 242,
+          "failureMessages": [],
+          "fullName": "error state should retain the error within the component boundry",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should retain the error within the component boundry"
+        },
+        {
+          "ancestorTitles": [
+            "error state"
+          ],
+          "duration": 34,
+          "failureMessages": [],
+          "fullName": "error state should be notified with not found status",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be notified with not found status"
+        },
+        {
+          "ancestorTitles": [
+            "error state"
+          ],
+          "duration": 44,
+          "failureMessages": [],
+          "fullName": "error state should be notified with no permission if there is an error and content is empty",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be notified with no permission if there is an error and content is empty"
+        },
+        {
+          "ancestorTitles": [
+            "ready state"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "ready state should render SizeDetector > BreakoutProvider > ContentRenderer (Fabric) and notify with ready status",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "should render SizeDetector > BreakoutProvider > ContentRenderer (Fabric) and notify with ready status"
+        },
+        {
+          "ancestorTitles": [
+            "ready state"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "ready state should render ContentBodyDefault and notify with ready status",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "should render ContentBodyDefault and notify with ready status"
+        },
+        {
+          "ancestorTitles": [
+            "ready state"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "ready state should notify with ready status and permission",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "should notify with ready status and permission"
+        },
+        {
+          "ancestorTitles": [
+            "ready state"
+          ],
+          "duration": 42,
+          "failureMessages": [],
+          "fullName": "ready state should render ContentBodyFallback and notify with ready status",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render ContentBodyFallback and notify with ready status"
+        },
+        {
+          "ancestorTitles": [
+            "ContentRenderer"
+          ],
+          "duration": 37,
+          "failureMessages": [],
+          "fullName": "ContentRenderer should not be used when content is not available",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not be used when content is not available"
+        },
+        {
+          "ancestorTitles": [
+            "ContentRenderer"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "ContentRenderer should be used when content is spa friendly, created by Fabric editor, fabric.renderer is enabled and toggled",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "should be used when content is spa friendly, created by Fabric editor, fabric.renderer is enabled and toggled"
+        },
+        {
+          "ancestorTitles": [
+            "ContentRenderer"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "ContentRenderer should not be used when content is not spa friendly",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "should not be used when content is not spa friendly"
+        },
+        {
+          "ancestorTitles": [
+            "ContentRenderer"
+          ],
+          "duration": 41,
+          "failureMessages": [],
+          "fullName": "ContentRenderer should not be used when content was not created by Fabric",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not be used when content was not created by Fabric"
+        },
+        {
+          "ancestorTitles": [
+            "ContentRenderer"
+          ],
+          "duration": 44,
+          "failureMessages": [],
+          "fullName": "ContentRenderer should not be used when fabric.renderer is off",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not be used when fabric.renderer is off"
+        }
+      ],
+      "sourceMaps": {},
+      "skipped": false,
+      "leaks": false
+    }
+  ],
+  "wasInterrupted": false
+}

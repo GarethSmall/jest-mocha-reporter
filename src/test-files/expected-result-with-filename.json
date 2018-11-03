@@ -1,0 +1,223 @@
+{
+  "stats": {
+    "tests": 33,
+    "passes": 29,
+    "failures": 2,
+    "duration": 45587,
+    "start": "2016-08-18T12:00:09.655Z",
+    "end": "2016-08-18T12:00:55.242Z"
+  },
+  "failures": [
+    {
+      "title": "SpaceOverview-test",
+      "fullTitle": "SpaceOverview-test",
+      "duration": 0,
+      "errorCount": 1,
+      "error": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../../../../test/enzyme-utils-local' from 'SpaceOverview-test.js'\n\n    \u001b[0m \u001b[90m 12 | \u001b[39mjest\u001b[33m.\u001b[39mmock(\u001b[32m\"../../InlineComments\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 13 | \u001b[39mjest\u001b[33m.\u001b[39mmock(\u001b[32m\"../../EditorLoader\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 | \u001b[39mjest\u001b[33m.\u001b[39mmock(\u001b[32m\"../../EditorFlags\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    | \u001b[39m                                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 15 | \u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 16 | \u001b[39mit(\u001b[32m\"should show blank experience if space doesn't have space overview page\"\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 17 | \u001b[39m  \u001b[36mconst\u001b[39m wrapper \u001b[33m=\u001b[39m await mockAndMount(\u001b[33m<\u001b[39m\u001b[33mSpaceOverview\u001b[39m spaceKey\u001b[33m=\u001b[39m\u001b[32m\"DS\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[33m,\u001b[39m {\u001b[0m\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22m\u001b[0m\u001b[36m../../node_modules/jest-runner/node_modules/jest-resolve/build/index.js\u001b[39m\u001b[0m\u001b[2m:210:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36msrc/components/SpaceOverview/__tests__/SpaceOverview-test.js\u001b[39m\u001b[0m\u001b[2m:14:376)\u001b[22m\n"
+    },
+    {
+      "title": "Saga middleware – it should call \"asyncFetchOpportunities\"",
+      "fullTitle": "saga-test",
+      "duration": 29592,
+      "errorCount": 2,
+      "error": "2 failures:\n* Expected [ 'somethingBeingTested' ] to equal [ 'notsomethingBeingTested' ].\n    at stack (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1580:17)\n    at Object.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1550:14)\n    at jasmine.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:80:44)\n    at Spec.Env.expectationResultFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:641:18)\n    at Spec.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:333:34)\n    at Expectation.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:591:21)\n    at Expectation.eval [as toEqual] (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1504:12)\n    at Object.eval (/path/to/somethingBeingTested/__tests__/saga-test.js:12:63)\n    at Object.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/jasmine-pit.js:35:32)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Spec.Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Spec.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:362:10)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2483:37)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2468:13)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at TreeProcessor.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2330:7)\n    at Env.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:760:17)\n    at jasmine2 (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:253:7)\n    at Test.run (/anotherPath/to/node_modules/jest-cli/src/Test.js:44:12)\n    at process.on.module.exports.Test.run.then.result (/anotherPath/to/node_modules/jest-cli/src/TestWorker.js:50:8)\n    at handle (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:41:8)\n    at process.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:47:3)\n    at emitTwo (events.js:87:13)\n    at process.emit (events.js:172:7)\n    at handleMessage (internal/child_process.js:686:10)\n    at Pipe.channel.onread (internal/child_process.js:440:11)\n* Expected Object({ type: 'OPPORTUNITIES_FETCH_SUCCEEDED', opportunities: undefined }) to equal Object({ type: 'OPPORTUNITIES_FETCH_SUCCEEDED2', opportunities: null }).\n    at stack (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1580:17)\n    at Object.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1550:14)\n    at jasmine.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:80:44)\n    at Spec.Env.expectationResultFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:641:18)\n    at Spec.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:333:34)\n    at Expectation.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:591:21)\n    at Expectation.eval [as toEqual] (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1504:12)\n    at Object.eval (/path/to/somethingBeingTested/__tests__/saga-test.js:15:63)\n    at Object.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/jasmine-pit.js:35:32)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Spec.Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Spec.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:362:10)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2483:37)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2468:13)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at TreeProcessor.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2330:7)\n    at Env.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:760:17)\n    at jasmine2 (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:253:7)\n    at Test.run (/anotherPath/to/node_modules/jest-cli/src/Test.js:44:12)\n    at process.on.module.exports.Test.run.then.result (/anotherPath/to/node_modules/jest-cli/src/TestWorker.js:50:8)\n    at handle (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:41:8)\n    at process.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:47:3)\n    at emitTwo (events.js:87:13)\n    at process.emit (events.js:172:7)\n    at handleMessage (internal/child_process.js:686:10)\n    at Pipe.channel.onread (internal/child_process.js:440:11)"
+    },
+    {
+      "title": "Saga middleware – it should call \"fetchOpportunities\"",
+      "fullTitle": "saga-test",
+      "duration": 29592,
+      "errorCount": 1,
+      "error": "1 failure:\n* Expected 'ASYNC_FETCH_OPPORTUNITIES' to equal 'ASYNC_FETCH_OPPORTUNITIES!'.\n    at stack (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1580:17)\n    at Object.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1550:14)\n    at jasmine.buildExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:80:44)\n    at Spec.Env.expectationResultFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:641:18)\n    at Spec.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:333:34)\n    at Expectation.addExpectationResult (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:591:21)\n    at Expectation.eval [as toEqual] (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1504:12)\n    at Object.eval (/path/to/somethingBeingTested/__tests__/saga-test.js:21:61)\n    at Object.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/jasmine-pit.js:35:32)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Spec.Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Spec.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:362:10)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2483:37)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at eval (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1901:16)\n    at eval (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1845:9)\n    at complete (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:374:9)\n    at QueueRunner.clearStack (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:663:9)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1884:12)\n    at eval (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1901:16)\n    at eval (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1845:9)\n    at Object.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/jasmine-pit.js:40:11)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Spec.Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Spec.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:362:10)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2483:37)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at Object.fn (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2468:13)\n    at attemptAsync (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1919:24)\n    at QueueRunner.run (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1874:9)\n    at QueueRunner.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:1862:10)\n    at Env.queueRunnerFactory (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:700:35)\n    at TreeProcessor.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:2330:7)\n    at Env.execute (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/vendor/jasmine-2.4.1.js:760:17)\n    at jasmine2 (/anotherPath/to/node_modules/jest-cli/node_modules/jest-jasmine2/src/index.js:253:7)\n    at Test.run (/anotherPath/to/node_modules/jest-cli/src/Test.js:44:12)\n    at process.on.module.exports.Test.run.then.result (/anotherPath/to/node_modules/jest-cli/src/TestWorker.js:50:8)\n    at handle (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:41:8)\n    at process.<anonymous> (/anotherPath/to/node_modules/jest-cli/node_modules/worker-farm/lib/child/index.js:47:3)\n    at emitTwo (events.js:87:13)\n    at process.emit (events.js:172:7)\n    at handleMessage (internal/child_process.js:686:10)\n    at Pipe.channel.onread (internal/child_process.js:440:11)"
+    }
+  ],
+  "passes": [
+    {
+      "title": "Saga middleware – it should handle loadOpportunities error",
+      "fullTitle": "saga-test",
+      "duration": 29592,
+      "errorCount": 0
+    },
+    {
+      "title": "Opportunity component – it should render the correct values for the fields",
+      "fullTitle": "opportunity-test",
+      "duration": 32918,
+      "errorCount": 0
+    },
+    {
+      "title": "Opportunity component – it should render all the week maps as \"none\" if there are no timelines",
+      "fullTitle": "opportunity-test",
+      "duration": 32918,
+      "errorCount": 0
+    },
+    {
+      "title": "Opportunity component – it should render week maps with proper dates if there are production timelines",
+      "fullTitle": "opportunity-test",
+      "duration": 32918,
+      "errorCount": 0
+    },
+    {
+      "title": "Range Picker – it should mount properly",
+      "fullTitle": "range-picker-test",
+      "duration": 2798,
+      "errorCount": 0
+    },
+    {
+      "title": "Range Picker – it should not display label if we don't know what it is",
+      "fullTitle": "range-picker-test",
+      "duration": 2798,
+      "errorCount": 0
+    },
+    {
+      "title": "Range Picker – it should call the callback when changing the from date",
+      "fullTitle": "range-picker-test",
+      "duration": 2798,
+      "errorCount": 0
+    },
+    {
+      "title": "Range Picker – it should call the callback when changing the to date",
+      "fullTitle": "range-picker-test",
+      "duration": 2798,
+      "errorCount": 0
+    },
+    {
+      "title": "somethingBeingTestedList – it should render the somethingBeingTestedList headers if there are props loaded",
+      "fullTitle": "list-test",
+      "duration": 6382,
+      "errorCount": 0
+    },
+    {
+      "title": "somethingBeingTestedList – it should not render the somethingBeingTestedList if there are no props loaded",
+      "fullTitle": "list-test",
+      "duration": 6382,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should mount properly",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should properly parse the state",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should render the wrapper header with the 5 links",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should display the correct active link",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should dispatch \"setOpportunitiesFilter\" when clicking onClickSort",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should handle dispatch",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should properly order the opportunities descending",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "Wrapper – it should properly order the opportunities ascending",
+      "fullTitle": "wrapper-test",
+      "duration": 36540,
+      "errorCount": 0
+    },
+    {
+      "title": "WeekMap – it should render the week map",
+      "fullTitle": "weekMap-test",
+      "duration": 619,
+      "errorCount": 0
+    },
+    {
+      "title": "Loader – it should render the loader",
+      "fullTitle": "loader-test",
+      "duration": 1095,
+      "errorCount": 0
+    },
+    {
+      "title": "Sort Opportunities Reducer – it should return initial state",
+      "fullTitle": "reducers-test",
+      "duration": 231,
+      "errorCount": 0
+    },
+    {
+      "title": "Sort Opportunities Reducer – it should handle sorting by filter type and order",
+      "fullTitle": "reducers-test",
+      "duration": 231,
+      "errorCount": 0
+    },
+    {
+      "title": "Opportunities Reducer – it should return initial state",
+      "fullTitle": "reducers-test",
+      "duration": 231,
+      "errorCount": 0
+    },
+    {
+      "title": "Opportunities Reducer – it should handle the loaded opportunities",
+      "fullTitle": "reducers-test",
+      "duration": 231,
+      "errorCount": 0
+    },
+    {
+      "title": "Actions – it should create an action to set opportunities filter",
+      "fullTitle": "actions-test",
+      "duration": 135,
+      "errorCount": 0
+    },
+    {
+      "title": "Detail modal component – it should render the detail modal link",
+      "fullTitle": "detailModal-test",
+      "duration": 2106,
+      "errorCount": 0
+    },
+    {
+      "title": "Detail modal component – it should have a closed state",
+      "fullTitle": "detailModal-test",
+      "duration": 2106,
+      "errorCount": 0
+    },
+    {
+      "title": "Detail modal component – it should change state to open after clicking on the link",
+      "fullTitle": "detailModal-test",
+      "duration": 2106,
+      "errorCount": 0
+    },
+    {
+      "title": "Detail modal component – it should change state to closed after clicking on the close button",
+      "fullTitle": "detailModal-test",
+      "duration": 2106,
+      "errorCount": 0
+    }
+  ],
+  "skipped": [
+    {
+      "title": "Saga middleware – it should loadOpportunities",
+      "fullTitle": "saga-test",
+      "duration": 29592,
+      "errorCount": 0
+    },
+    {
+      "title": "Index – it should mount properly",
+      "fullTitle": "somethingBeingTested-test",
+      "duration": 440,
+      "errorCount": 0
+    }
+  ]
+}

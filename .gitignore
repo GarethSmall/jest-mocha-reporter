@@ -1,0 +1,21 @@
+# node.js
+node_modules/
+npm-debug.log
+
+# jest coverage
+/coverage
+
+# OSX
+.DS_Store
+
+# Android/IJ
+.idea
+
+# vscode
+.vscode
+
+# Distribution
+dist/
+
+example/
+docs/
