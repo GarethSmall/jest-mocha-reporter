@@ -9,8 +9,11 @@ See [Reporters](https://jestjs.io/docs/en/configuration.html#reporters-array-mod
 See [testResultsProcessor](https://jestjs.io/docs/en/configuration.html#testresultsprocessor-string)
 
 [![Build Status](https://travis-ci.org/GarethSmall/jest-mocha-reporter.svg?branch=master)](https://travis-ci.org/GarethSmall/jest-mocha-reporter)
+[![GitHub license](https://img.shields.io/github/license/GarethSmall/jest-mocha-reporter.svg?style=flat-square)](https://github.com/GarethSmall/jest-mocha-reporter/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/GarethSmall/jest-mocha-reporter.svg)](https://github.com/GarethSmall/jest-mocha-reporter/issues)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/GarethSmall/jest-mocha-reporter.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGarethSmall%2Fjest-mocha-reporter)
 
-
+[![NPM](https://nodei.co/npm/jest-mocha-reporter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jest-mocha-reporter/)
 ## Forked From
 - Forked from [jest-bamboo-reporter](https://github.com/CHECK24/jest-bamboo-reporter/commits/master)
     - Forked from [jest-bamboo-formatter](https://github.com/adalbertoteixeira/jest-bamboo-formatter)
